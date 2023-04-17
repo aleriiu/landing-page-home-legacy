@@ -2,4 +2,274 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* header */
+
+.header__main {
+    display: flex;
+}
+
+.header__main_tetrafont {
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 32px;
+    padding-right: 158px;
+    padding-bottom: 158px;
+    padding-left: 123px;
+}
+
+.header__main-boil {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1C1C1C;
+    padding-right: 57px;
+    padding-top: 36px;
+    padding-bottom: 179px;
+}
+
+.header__main-gap {
+    display: flex;
+    gap: 58px;
+    padding-top: 36px;
+    padding-right: 116px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.header__main a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1C1C1C;
+    padding-top: 36px;
+    padding-right: 33px;
+}
+
+.header__button {
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #1C1C1C;
+    border: none;
+    padding: 16px 25px 16px 26px;
+    width: 100px;
+    height: 48px;
+    margin-top: 20px;
+    margin-right: 123px;
+}
+
+.header__description_blocks {
+    display: flex;
+}
+
+.header__description {
+    margin-left: 123px;
+    margin-top: 43px;
+    padding-right: 95px;
+}
+
+.header__info {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* services */
+
+.services-header {
+    text-align: center;
+    padding-top: 102px;
+    padding-bottom: 36px;
+}
+
+.services-header_services {
+    font-weight: 900;
+    font-size: 62px;
+    padding-bottom: 6px;
+    color: #1C1C1C;
+}
+
+.services-header_description {
+    font-weight: 400;
+    font-size: 17px;
+    color: #5C5C5C;
+}
+
+.services_group1 {
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 22px;
+}
+
+.services_group2 {
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+    text-align: center;
+}
+
+.services_image-plumber {
+    padding-top: 55.99px;
+    padding-bottom: 38px;
+    background-color: #1C1C1C;
+}
+
+.services_header-plumber {
+    font-weight: 600;
+    font-size: 32px;
+    padding-bottom: 11px;
+    padding-right: 102px;
+    padding-left: 101px;
+    background-color: #1C1C1C;
+}
+
+.services_description-bg {
+    background-color: #1C1C1C;
+}
+
+.services_image-painting {
+    padding-top: 56px;
+    padding-bottom: 38px;
+}
+
+.services_header-painting {
+    font-weight: 600;
+    font-size: 32px;
+    padding-bottom: 11px;
+    padding-right: 103px;
+    padding-left: 104px;
+}
+
+.services_image-logistics {
+    padding-top: 56px;
+    padding-bottom: 38px;
+}
+
+.services_header-logistics {
+    font-weight: 600;
+    font-size: 32px;
+    padding-bottom: 11px;
+    padding-right: 95px;
+    padding-left: 95px;
+}
+
+.services_image-cleaning {
+    padding-top: 57.13px;
+    padding-bottom: 38px;
+}
+
+.services_header-cleaning {
+    font-weight: 600;
+    font-size: 32px;
+    padding-bottom: 11px;
+    padding-right: 97px;
+    padding-left: 97px;
+}
+
+.services_image-furnitures {
+    padding-top: 56px;
+    padding-bottom: 38px;
+}
+
+.services_header-furnitures {
+    font-weight: 600;
+    font-size: 32px;
+    padding-bottom: 11px;
+    padding-right: 77px;
+    padding-left: 77px;
+}
+
+.services_image-more_then {
+    padding-top: 56px;
+    padding-bottom: 38px;
+}
+
+.services_header-more_then {
+    font-weight: 600;
+    font-size: 32px;
+    padding-bottom: 11px;
+    padding-right: 83px;
+    padding-left: 83px;
+}
+
+.services_description {
+    font-weight: 400px;
+    font-size: 16px;
+    padding-bottom: 38px;
+}
+
+
+.services-plumber,
+.services-painting,
+.services-logistics,
+.services-cleaning,
+.services-furnitures,
+.services-more_then {
+    border: 1px #1C1C1C solid;
+}
+
+.services-plumber {
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+}
+
+.services-painting,
+.services-logistics,
+.services-cleaning,
+.services-furnitures,
+.services-more_then {
+    color: #5C5C5C;
+}
+
+/* about us */
+
+.about-us {
+    display: flex;
+}
+
+.about-us_description {
+    padding-top: 250px;
+    padding-right: 322px;
+    padding-left: 124px;
+}
+
+.about-us__header {
+    font-weight: 900;
+    font-size: 62px;
+    padding-bottom: 22px;
+    color: #1C1C1C;
+}
+
+.about-us__header-description {
+    color: #5C5C5C;
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 22px;
+}
+
+.about-us__button {
+    border: none;
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-right: 22px;
+    padding-bottom: 20px;
+    padding-left: 22px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.about-us_images {
+    padding-top: 184px;
+}
+
+/* property */
+
+.property__header {
+    margin-top: 102px;
+    font-weight: 900;
+    font-size: 62px;
+    text-align: center;
 }

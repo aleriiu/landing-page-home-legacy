@@ -1,8 +1,14 @@
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
     background-color: #f0f0f0;
+}
+
+p {
+    color: #5C5C5C;
+    font-size: 1.063rem;
 }
 
 /* header */
@@ -273,3 +279,73 @@
     font-size: 62px;
     text-align: center;
 }
+
+/* work-process section */
+.work-process {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title {
+    font-weight: 900;
+    font-size: 3.875rem;
+    text-transform: uppercase;
+}
+
+.work-process-title,
+.work-process-text {
+    width: 65%;
+    text-align: center;
+}
+
+.work-process-text{
+    margin-bottom: 2.625rem;
+}
+
+.work-process-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.work-process-card {
+    width: 45%;
+    flex-basis: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    padding: 4.5rem 5rem;
+    border-bottom: 3px solid #E0E0E0;
+}
+
+.work-process-card:nth-last-child(-n + 2){
+    border-bottom: none;
+}
+
+.work-process-card:nth-child(odd) {
+    border-right: 3px solid #E0E0E0;;
+}
+
+.work-process-card__title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.work-process-card__text {
+    text-align: center;
+}
+
+.main__work-process {
+    margin-bottom: 3rem;
+}
+
+/* work-process section */

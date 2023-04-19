@@ -194,7 +194,7 @@ input::placeholder {
     border: none;
 }
 
-.form__seach-btn > img {
+.form__seach-btn>img {
     background-color: transparent;
     padding: 1.438rem 1.5rem;
 }
@@ -216,6 +216,10 @@ input::placeholder {
     text-align: center;
     padding-top: 6.375rem;
     padding-bottom: 2.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .services-header_services {
@@ -229,6 +233,7 @@ input::placeholder {
     font-weight: 400;
     font-size: 1.063rem;
     color: #5C5C5C;
+    width: 65%;
 }
 
 .services_group1 {
@@ -247,17 +252,15 @@ input::placeholder {
 }
 
 .services_image-plumber {
-    padding-top: 3.499rem;
-    padding-bottom: 2.375rem;
     background-color: #1C1C1C;
+    margin-bottom: 2.375rem;
+    margin-top: 2.133rem;
 }
 
 .services_header-plumber {
     font-weight: 600;
     font-size: 2rem;
-    padding-bottom: 0.688rem;
-    padding-right: 6.375rem;
-    padding-left: 6.313rem;
+    margin-bottom: 0.688rem;
     background-color: #1C1C1C;
 }
 
@@ -265,75 +268,31 @@ input::placeholder {
     background-color: #1C1C1C;
 }
 
-.services_image-painting {
-    padding-top: 3.5rem;
-    padding-bottom: 2.375rem;
-}
-
-.services_header-painting {
-    font-weight: 600;
-    font-size: 2rem;
-    padding-bottom: 0.688rem;
-    padding-right: 6.438rem;
-    padding-left: 6.5rem;
-}
-
-.services_image-logistics {
-    padding-top: 3.5rem;
-    padding-bottom: 2.375rem;
-}
-
-.services_header-logistics {
-    font-weight: 600;
-    font-size: 2rem;
-    padding-bottom: 0.688rem;
-    padding-right: 5.938rem;
-    padding-left: 5.938rem;
-}
-
-.services_image-cleaning {
-    padding-top: 3.571rem;
-    padding-bottom: 2.375rem;
-}
-
-.services_header-cleaning {
-    font-weight: 600;
-    font-size: 2rem;
-    padding-bottom: 0.688rem;
-    padding-right: 6.063rem;
-    padding-left: 6.063rem;
-}
-
-.services_image-furnitures {
-    padding-top: 3.5rem;
-    padding-bottom: 2.375rem;
-}
-
-.services_header-furnitures {
-    font-weight: 600;
-    font-size: 2rem;
-    padding-bottom: 0.688rem;
-    padding-right: 4.813rem;
-    padding-left: 4.813rem;
-}
-
+.services_image-painting,
+.services_image-logistics,
+.services_image-cleaning,
+.services_image-furnitures,
 .services_image-more_then {
-    padding-top: 3.5rem;
-    padding-bottom: 2.375rem;
+    margin-bottom: 2.375rem;
+    margin-top: 2.133rem;
 }
 
+.services_header-painting,
+.services_header-logistics,
+.services_header-cleaning,
+.services_header-furnitures,
 .services_header-more_then {
     font-weight: 600;
     font-size: 2rem;
-    padding-bottom: 0.688rem;
-    padding-right: 5.188rem;
-    padding-left: 5.188rem;
+    margin-bottom: 0.688rem;
 }
 
 .services_description {
     font-weight: 400;
     font-size: 1rem;
     padding-bottom: 2.375rem;
+    text-align: justify;
+    text-align-last: center;
 }
 
 
@@ -344,6 +303,11 @@ input::placeholder {
 .services-furnitures,
 .services-more_then {
     border: 0.063rem #1C1C1C solid;
+    padding: 23px 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .services-plumber {
@@ -378,10 +342,9 @@ input::placeholder {
 }
 
 .about-us__header-description {
-    color: #5C5C5C;
-    font-size: 1.063rem;
     font-weight: 400;
     padding-bottom: 1.375rem;
+    line-height: 1.5;
 }
 
 .about-us__button {
@@ -431,6 +394,7 @@ input::placeholder {
 
 .booking-card {
     border: 1px #1C1C1C solid;
+    margin-bottom: 6.375rem;
 }
 
 .booking-card__image {
@@ -467,7 +431,7 @@ input::placeholder {
     font-weight: 300;
     color: #1E1E1E;
     padding-top: 0.938rem;
-    
+
 }
 
 /* work-process section */

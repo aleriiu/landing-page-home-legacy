@@ -6,11 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LEGACY HOMES</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -29,169 +33,264 @@
             <button type="seach" class="header__button">SingUp</button>
         </div>
     </header>
+    <main>
+        <section class="seaching">
+            <div class="seaching__description">
+                <h1 class="seaching__description-header">Easiest way to find your
+                    <span>DREAM PLACE</span>
+                </h1>
+                <p class="seaching__description-about">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been
+                    the
+                    industry's standard dummy text ever since the 1500s....</p>
+                <form class="form">
 
-    <section class="seaching">
-        <div class="seaching__description">
-            <h1 class="seaching__description-header">Easiest way to find your
-                DREAM PLACE</h1>
-            <p class="seaching__description-about">Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been
-                the
-                industry's standard dummy text ever since the 1500s....</p>
-            <form action="">
-                <fieldset class="form">
-                    <label class="form-flex" for="long-terms">Property Type
+                    <div class="input-conteiner">
+                        <label class="label" for="long-terms">Property Type</label>
                         <input type="text" id="long-terms" name="long-terms" placeholder="Long Terms">
-                    </label>
-                    <label class="form-flex" for="rent">Property Status
+                    </div>
+                    <div class="input-conteiner">
+                        <label class="label" for="rent">Property Status</label>
                         <input type="text" id="rent" name="rent" placeholder="Rent">
-                    </label>
-                    <label class="form-flex" for="fully-furnished">Type
-                        <input type="text" id="fully-furnished" name="fully-furnished" placeholder="Fully Furnished">
-                    </label>
-                    <label class="form-flex" for="USA">Location
+                    </div>
+                    <div class="input-conteiner">
+                        <label class="label" for="furnished">Type</label>
+                        <input type="text" id="furnished" name="furnished" placeholder="Furnished">
+                    </div>
+                    <div class="input-conteiner">
+                        <label class="label" for="USA">Location</label>
                         <input type="text" id="USA" name="USA" placeholder="USA">
-                    </label>
-                    <button class="form__seach-btn" type="seach"><svg width="20" height="20" viewBox="0 0 20 20"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M15 15L19 19M1 9C1 11.1217 1.84285 13.1566 3.34315 14.6569C4.84344 16.1571 6.87827 17 9 17C11.1217 17 13.1566 16.1571 14.6569 14.6569C16.1571 13.1566 17 11.1217 17 9C17 6.87827 16.1571 4.84344 14.6569 3.34315C13.1566 1.84285 11.1217 1 9 1C6.87827 1 4.84344 1.84285 3.34315 3.34315C1.84285 4.84344 1 6.87827 1 9Z"
-                                stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg></button>
-                </fieldset>
+                    </div>
+                    <button class="form__seach-btn" type="seach"><img src="./images/Vector.svg" alt=""></button>
 
+                </form>
+            </div>
+            <img class="seaching__images" src="images/Rectangle 3.png" alt="">
+        </section>
+        <section class="services">
+            <div class="services-header">
+                <h2 class="services-header_services section-title">SERVICES</h2>
+                <p class="services-header_description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s....</p>
+            </div>
+            <div class="services_group1">
+                <div class="services-plumber">
+                    <img class="services_image-plumber" src="images/Group 101.png" alt="">
+                    <h3 class="services_header-plumber">PLUMBER</h3>
+                    <p class="services_description services_description-bg">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting
+                        industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,</p>
+                </div>
+                <div class="services-painting">
+                    <img class="services_image-painting" src="images/Group 103.png" alt="">
+                    <h3 class="services_header-painting">PAINTING</h3>
+                    <p class="services_description">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting
+                        industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,</p>
+                </div>
+                <div class="services-logistics">
+                    <img class="services_image-logistics" src="images/Group 105.png" alt="">
+                    <h3 class="services_header-logistics">LOGISTICS</h3>
+                    <p class="services_description">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting
+                        industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,</p>
+                </div>
+            </div>
+            <div class="services_group2">
+                <div class="services-cleaning">
+                    <img class="services_image-cleaning" src="images/Group 107.png" alt="">
+                    <h3 class="services_header-cleaning">CLEANING</h3>
+                    <p class="services_description">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting
+                        industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,</p>
+                </div>
+                <div class="services-furnitures">
+                    <img class="services_image-furnitures" src="images/Group 109.png" alt="">
+                    <h3 class="services_header-furnitures">FURNITURES</h3>
+                    <p class="services_description">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting
+                        industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,</p>
+                </div>
+                <div class="services-more_then">
+                    <img class="services_image-more_then" src="images/Group 111.png" alt="">
+                    <h3 class="services_header-more_then">MORE THEN</h3>
+                    <p class="services_description">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting
+                        industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,</p>
+                </div>
+            </div>
+        </section>
+        <section class="about-us">
+            <div class="about-us_description">
+                <h2 class="about-us__header section-title">ABOUT US</h2>
+                <p class="about-us__header-description">Lorem Ipsum is simply dummy text of the printing and <br>
+                    typesetting industry. Lorem Ipsum has been the <br>
+                    industry's standard dummy text ever since the 1500s, <br> when an unknown printer took a galley of
+                    type
+                    and <br>
+                    scrambled it to make a type specimen book. It has <br> survived not only five centuries, but also
+                    the
+                    leap
+                    into <br> electronic typesetting, remaining essentially unchanged. <br> It was popularised in the
+                    1960s
+                    with the
+                    release of <br> Letraset sheets containing Lorem Ipsum passages, and <br> more recently with desktop
+                    publishing
+                    software like <br> Aldus PageMaker including versions of Lorem Ipsum.</p>
 
-            </form>
-        </div>
-        <img class="seaching__images" src="images/Rectangle 3.png" alt="">
-    </section>
-    <section class="services">
-        <div class="services-header">
-            <h2 class="services-header_services">SERVICES</h2>
-            <p class="services-header_description">Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the 
-                industry's standard dummy text ever since the 1500s....</p>
-        </div>
-        <div class="services_group1">
-            <div class="services-plumber">
-                <img class="services_image-plumber" src="images/Group 101.png" alt="">
-                <h3 class="services_header-plumber">PLUMBER</h3>
-                <p class="services_description services_description-bg">Lorem Ipsum is simply dummy text of the
-                    printing and typesetting
-                    industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s,</p>
-            </div>
-            <div class="services-painting">
-                <img class="services_image-painting" src="images/Group 103.png" alt="">
-                <h3 class="services_header-painting">PAINTING</h3>
-                <p class="services_description">Lorem Ipsum is simply dummy text of the printing and
-                    typesetting
-                    industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s,</p>
-            </div>
-            <div class="services-logistics">
-                <img class="services_image-logistics" src="images/Group 105.png" alt="">
-                <h3 class="services_header-logistics">LOGISTICS</h3>
-                <p class="services_description">Lorem Ipsum is simply dummy text of the printing and
-                    typesetting
-                    industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s,</p>
-            </div>
-        </div>
-        <div class="services_group2">
-            <div class="services-cleaning">
-                <img class="services_image-cleaning" src="images/Group 107.png" alt="">
-                <h3 class="services_header-cleaning">CLEANING</h3>
-                <p class="services_description">Lorem Ipsum is simply dummy text of the printing and
-                    typesetting
-                    industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s,</p>
-            </div>
-            <div class="services-furnitures">
-                <img class="services_image-furnitures" src="images/Group 109.png" alt="">
-                <h3 class="services_header-furnitures">FURNITURES</h3>
-                <p class="services_description">Lorem Ipsum is simply dummy text of the printing and
-                    typesetting
-                    industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s,</p>
-            </div>
-            <div class="services-more_then">
-                <img class="services_image-more_then" src="images/Group 111.png" alt="">
-                <h3 class="services_header-more_then">MORE THEN</h3>
-                <p class="services_description">Lorem Ipsum is simply dummy text of the printing and
-                    typesetting
-                    industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s,</p>
-            </div>
-        </div>
-    </section>
-    <section class="about-us">
-        <div class="about-us_description">
-            <h2 class="about-us__header">ABOUT US</h2>
-            <p class="about-us__header-description">Lorem Ipsum is simply dummy text of the printing and <br>
-                typesetting industry. Lorem Ipsum has been the <br>
-                industry's standard dummy text ever since the 1500s, <br> when an unknown printer took a galley of
-                type
-                and <br>
-                scrambled it to make a type specimen book. It has <br> survived not only five centuries, but also
-                the
-                leap
-                into <br> electronic typesetting, remaining essentially unchanged. <br> It was popularised in the
-                1960s
-                with the
-                release of <br> Letraset sheets containing Lorem Ipsum passages, and <br> more recently with desktop
-                publishing
-                software like <br> Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <button class="about-us__button" type="seach">LEARN MORE</button>
 
-            <button class="about-us__button" type="seach">LEARN MORE</button>
-
-        </div>
-        <img class="about-us_images" src="images/Rectangle 26.png" alt="">
-    </section>
-    <section class="property">
-        <div>
-            <h2 class="property__header">PROPERTY</h2>
-            <p class="property__header-item">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s....</p>
-        </div>
-        <div class="property__booking">
+            </div>
+            <img class="about-us_images" src="images/Rectangle 26.png" alt="">
+        </section>
+        <section class="property">
             <div>
-                <img src="images/Rectangle 34.png" alt="">
-                <p>1 Bedroom Apartment with No Commission Free Bills and Parking with Tawtheeq</p>
-                <p>Palika Market, Delhi</p>
-                <p>Rs. 2,00,000.00/year</p>
-                <p>Area (sqft)</p>
-                <p>Bedrooms</p>
-                <p>Bathrooms</p>
-                <button type="seach">view details</button>
+                <h2 class="property__header section-title">PROPERTY</h2>
+                <p class="property__header-item">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s....</p>
             </div>
-            <div>
-                <img src="images/Rectangle 35.png" alt="">
-                <p>1 Bedroom Apartment with No Commission Free Bills and Parking with Tawtheeq</p>
-                <p>Palika Market, Delhi</p>
-                <p>Rs. 2,00,000.00/year</p>
-                <p>Area (sqft)</p>
-                <p>Bedrooms</p>
-                <p>Bathrooms</p>
-                <button type="seach">view details</button>
+            <div class="property__booking">
+                <div class="booking-card">
+                    <img class="booking-card__image" src="images/Rectangle 34.png" alt="">
+                    <p class="booking-card__title">1 Bedroom Apartment with No Commission Free Bills and Parking with
+                        Tawtheeq</p>
+                    <p class="booking-card__location">Palika Market, Delhi</p>
+                    <p class="booking-card__price">Rs. 2,00,000.00/year</p>
+                    <div class="booking-card__details-container">
+                        <div class="booking-card__details">
+                            <p>Area (sqft)</p>
+                            <p>920</p>
+                        </div>
+                        <div class="booking-card__details">
+                            <p>Bedrooms</p>
+                            <p>1</p>
+                        </div>
+                        <div class="booking-card__details">
+                            <p>Bathrooms</p>
+                            <p>1</p>
+                        </div>
+                    </div>
+                    <button type="seach">view details</button>
+                </div>
+                <div class="booking-card">
+                    <img class="booking-card__image" src="images/Rectangle 35.png" alt="">
+                    <p class="booking-card__title">1 Bedroom Apartment with No Commission Free Bills and Parking with
+                        Tawtheeq</p>
+                    <p class="booking-card__location">Palika Market, Delhi</p>
+                    <p class="booking-card__price">Rs. 2,00,000.00/year</p>
+                    <div class="booking-card__details-container">
+                        <div class="booking-card__details">
+                            <p>Area (sqft)</p>
+                            <p>920</p>
+                        </div>
+                        <div class="booking-card__details">
+                            <p>Bedrooms</p>
+                            <p>1</p>
+                        </div>
+                        <div class="booking-card__details">
+                            <p>Bathrooms</p>
+                            <p>1</p>
+                        </div>
+                    </div>
+                    <button type="seach">view details</button>
+                </div>
+                <div class="booking-card">
+                    <img class="booking-card__image" src="images/Rectangle 36.png" alt="">
+                    <p class="booking-card__title">1 Bedroom Apartment with No Commission Free Bills and Parking with
+                        Tawtheeq</p>
+                    <p class="booking-card__location">Palika Market, Delhi</p>
+                    <p class="booking-card__price">Rs. 2,00,000.00/year</p>
+                    <div class="booking-card__details-container">
+                        <div class="booking-card__details">
+                            <p>Area (sqft)</p>
+                            <p>920</p>
+                        </div>
+                        <div class="booking-card__details">
+                            <p>Bedrooms</p>
+                            <p>1</p>
+                        </div>
+                        <div class="booking-card__details">
+                            <p>Bathrooms</p>
+                            <p>1</p>
+                        </div>
+                    </div>
+                    <button type="seach">view details</button>
+                </div>
             </div>
-            <div>
-                <img src="images/Rectangle 36.png" alt="">
-                <p>1 Bedroom Apartment with No Commission Free Bills and Parking with Tawtheeq</p>
-                <p>Palika Market, Delhi</p>
-                <p>Rs. 2,00,000.00/year</p>
-                <p>Area (sqft)</p>
-                <p>Bedrooms</p>
-                <p>Bathrooms</p>
-                <button type="seach">view details</button>
+        </section>
+        <section class="work-process main__work-process">
+            <h2 class="work-process-title section-title">How it works?</h2>
+            <p class="work-process-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s....</p>
+            <div class="work-process-container">
+                <div class="work-process-card">
+                    <img class="work-process-card__img" src="./images/work-process-1.png">
+                    <h3 class="work-process-card__title">Looking for a tenant?</h3>
+                    <p class="work-process-card__text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.</p>
+                </div>
+                <div class="work-process-card">
+                    <img class="work-process-card__img" src="./images/work-process-2.png">
+                    <h3 class="work-process-card__title">A dedicated</h3>
+                    <p class="work-process-card__text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.</p>
+                </div>
+                <div class="work-process-card">
+                    <img class="work-process-card__img" src="./images/work-process-3.png">
+                    <h3 class="work-process-card__title">Marketing & Promotions</h3>
+                    <p class="work-process-card__text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.</p>
+                </div>
+                <div class="work-process-card">
+                    <img class="work-process-card__img" src="./images/work-process-4.png">
+                    <h3 class="work-process-card__title">Freedom from bogus callers</h3>
+                    <p class="work-process-card__text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.</p>
+                </div>
+                <div class="work-process-card">
+                    <img class="work-process-card__img" src="./images/work-process-5.png">
+                    <h3 class="work-process-card__title">Tenant Selects Property</h3>
+                    <p class="work-process-card__text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.</p>
+                </div>
+                <div class="work-process-card">
+                    <img class="work-process-card__img" src="./images/work-process-6.png">
+                    <h3 class="work-process-card__title">Deal Closure</h3>
+                    <p class="work-process-card__text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.</p>
+                </div>
             </div>
-        </div>
-    </section>
-    <section class="descriprion"></section>
-    <section class="clients"></section>
-    <section class="partners"></section>
-    <section class="notifications"></section>
+        </section>
+        <section class="clients">
+            <h2 class="clients-title  section-title">Client testimonials</h2>
+            <p class="clients-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text ever since the 1500s....</p>
+            <div class="clients-gallary">
+                <div class="clients-gallary__side clients-gallary__side_left"></div>
+                <div class="clients-gallary__main">
+                    <img class="clients-gallary__main-photo">
+                    <div class="clients-gallary__main-text-box">
+                        <div></div>
+                        <p></p>
+                        <div>
+                            <h4></h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="clients-gallary__side clients-gallary__side_right"></div>
+            </div>
+        </section>
+        <section class="partners"></section>
+        <section class="notifications"></section>
+    </main>
     <footer></footer>
 
 </body>

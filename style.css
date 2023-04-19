@@ -3,6 +3,7 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
     background-color: #f0f0f0;
+    padding: 0;
 }
 
 html, body {
@@ -17,6 +18,7 @@ header {
 
 .header__main {
     display: flex;
+    white-space: nowrap;
 }
 
 .header__main_tetrafont {
@@ -140,6 +142,11 @@ input::placeholder {
 }
 
 /* services */
+
+.services {
+    margin-left: 7.75rem;
+    margin-right: 7.75rem;
+}
 
 .services-header {
     text-align: center;

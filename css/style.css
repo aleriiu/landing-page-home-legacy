@@ -516,6 +516,8 @@ input::placeholder {
 /* work-process section */
 
 /* PARTNERS */
+
+.section__partners
 .partners-container {
     display: flex;
     padding: 6.375rem 0 7.75rem;

@@ -322,9 +322,7 @@ input::placeholder {
     margin-top: 6.375rem;
 }
 
-.about-us__description {
-    
-}
+.about-us__description {}
 
 .about-us__header {
     font-weight: 900;
@@ -513,20 +511,86 @@ input::placeholder {
     margin-bottom: 3rem;
 }
 
-/* work-process section */
+/* clients section */
+
+.clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-text {
+    margin-bottom: 2.25rem;
+    width: 65%;
+    text-align: center;
+}
+
+.clients-gallary {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients-gallary__side {
+    background-color: rgba(28, 28, 28, 0.7);
+    width: 15%;
+}
+
+.clients-gallary__main {
+    display: flex;
+}
+
+.clients-gallary__main-photo {
+    max-width: 100%;
+}
+
+.clients-gallary__main-textbox {
+    max-width: 29.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem 1.688rem 1.5rem 1.313rem;
+    line-height: 1.75rem;
+    background-color: #ffffff;
+}
+
+.clients-gallary__textbox-bg {
+    background-color: transparent;
+}
+
+.clients-gallary__main-img {
+    height: 3.75rem;
+    width: 4.625rem;
+}
+
+.clients-gallary__main-name {
+    font-family: 'CabinetGrotesk-Black';
+    font-weight: 900;
+    font-size: 1.25rem;
+    line-height: 1.563rem;
+    text-transform: uppercase;
+}
+
+.clients-gallary__main-location {
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: #5C5C5C;
+}
+
 
 /* PARTNERS */
 
-.section__partners
-.partners-container {
+.section__partners .partners-container {
     display: flex;
     padding: 6.375rem 0 7.75rem;
 }
 
-.partners-header{
+.partners-header {
     font-size: 3.875rem;
     font-weight: 900;
-    
+
 }
 
 .partners-image {

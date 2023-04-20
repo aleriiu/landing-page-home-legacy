@@ -322,8 +322,6 @@ input::placeholder {
     margin-top: 6.375rem;
 }
 
-.about-us__description {}
-
 .about-us__header {
     font-weight: 900;
     font-size: 3.875rem;
@@ -655,6 +653,23 @@ input::placeholder {
     position: absolute;
     top: 85%;
     left: 21%;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.partners-founder_co-founder {
+    margin-top: 0.125rem;
+    position: absolute;
+    top: 90%;
+    left: 29%;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.partners-founder_half {
+    position: absolute;
+    top: 85%;
+    left: 95%;
     background-color: transparent;
     color: #FFFFFF;
 }

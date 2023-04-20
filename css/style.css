@@ -164,7 +164,24 @@ p {
 .input-container {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
+
+.input-container::after {
+    content: "";
+    position: absolute;
+    border: #8E8E8E 0.05rem solid;
+    background: #8E8E8E;
+    top: 50%;
+    height: 1.563rem;
+    transform: translateY(-50%);
+    left: 82%; 
+}
+
+.input-container:nth-last-child(2)::after {
+    content: none;
+}
+
 
 .label {
     font-size: 0.875rem;
@@ -582,8 +599,9 @@ input::placeholder {
 /* PARTNERS */
 
 .section__partners {
-    padding: 6.375rem 0 6.375rem 7.75rem ;
+    padding: 6.375rem 0 6.375rem 7.75rem;
 }
+
 .partners-container {
     display: flex;
 }

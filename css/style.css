@@ -230,6 +230,7 @@ input::placeholder {
     padding-top: 2.125rem;
     width: 40%;
 }
+
 /* 
 .images-container {
     position: relative;
@@ -784,23 +785,50 @@ input::placeholder {
 }
 
 .notifications-container {
-    display: flex;
     background-color: #1C1C1C;
+    margin-top: 16.813rem;
+}
 
+.notification-description {
+    padding: 5.625rem 5.813rem 5.563rem 43.313rem;
+    position: relative;
 }
 
 .notification-header {
     font-size: 2.875rem;
     font-weight: 700;
     color: #FFFFFF;
+    margin-bottom: 1.625rem;
+    width: 90%;
 }
 
 .notification-about {
     font-size: 1rem;
     font-weight: 400;
+    color: #FFFFFF;
+    line-height: 1.5;
+    margin-bottom: 1.625rem;
+    width: 90%;
 }
 
+.notification-form__input {
+    padding: 1.5rem 13.375rem 1.5rem 1.625rem;
+    background-color: #FFFFFF33;
+    width: 36.25rem;
 
+}
+
+.notification-form__input::placeholder {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.notifications-image {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
 
 /* footer */
 

@@ -49,6 +49,12 @@ button:hover {
     max-width: 82%;
 }
 
+.btn-black:hover {
+    background-color: #FFFFFF;
+    color: #1C1C1C;
+    border: 1px #1C1C1C solid;
+}
+
 /* header */
 
 .header {
@@ -735,6 +741,7 @@ input::placeholder {
     font-weight: 300;
     border: #1C1C1C solid 0.063rem;
 }
+
 
 .partners-btn__next {
     font-size: 0.875rem;

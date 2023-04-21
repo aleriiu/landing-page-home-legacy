@@ -263,11 +263,11 @@ input::placeholder {
     transform: translateX(27px);
 }
 
-.circle-block__after {
+.circle {
     position: relative;
 }
 
-.circle-block__after::after {
+.circle::after {
     content: "";
     position: absolute;
     background: #1C1C1C;
@@ -426,7 +426,39 @@ input::placeholder {
 
 .about-us_images {
     padding-top: 1.25rem;
+    position: relative;
 }
+
+.about-us__circle {
+    position: relative;
+}
+
+.about-us__circle::before {
+    content: "";
+    position: absolute;
+    background: #1C1C1C;
+    border-radius: 50%;
+    width: 11.625rem;
+    height: 11.625rem;
+    right: 82%;
+    bottom: 24%;
+}
+
+.about-us__circle-block {
+    position: relative;
+}
+
+.about-us__circle-block::before {
+    content: "";
+    position: absolute;
+    background: #1C1C1C;
+    border-radius: 50%;
+    width: 11.625rem;
+    height: 11.625rem;
+    right: -19%;
+    transform: translateY(-69px);
+}
+
 
 /* property */
 
@@ -726,7 +758,6 @@ input::placeholder {
     position: absolute;
     top: 85%;
     left: 21%;
-    /* background-color: transparent; */
     color: #FFFFFF;
 }
 
@@ -735,7 +766,6 @@ input::placeholder {
     position: absolute;
     top: 90%;
     left: 29%;
-    /* background-color: transparent; */
     color: #FFFFFF;
 }
 
@@ -743,7 +773,6 @@ input::placeholder {
     position: absolute;
     top: 85%;
     left: 95%;
-    /* background-color: transparent; */
     color: #FFFFFF;
 }
 

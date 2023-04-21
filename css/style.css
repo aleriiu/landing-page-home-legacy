@@ -63,7 +63,9 @@ button:hover {
     transition: transform 250ms ease-in-out;
 }
 
-.menu__item:hover:after { transform: scaleX(1); }
+.menu__item:hover:after {
+    transform: scaleX(1);
+}
 
 .submenu__link:hover {
     text-decoration: underline;
@@ -341,22 +343,20 @@ input::placeholder {
 .services-card:hover {
     background-color: #1C1C1C;
     color: #FFFFFF;
-    fill: #FFFFFF;
-
 }
 
-.services-card:hover > .services-description {
+.services-card:hover>.services-description {
     color: #FFFFFF;
+}
+
+.services-card:hover>svg {
+    stroke: #FFFFFF;
+    fill: #FFFFFF;
 }
 
 svg path {
     stroke: inherit;
     fill: inherit;
-}
-
-.services-image:hover {
-    stroke: #FFFFFF;
-    fill: #FFFFFF;
 }
 
 .services-image {

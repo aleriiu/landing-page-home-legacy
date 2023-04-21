@@ -811,8 +811,12 @@ input::placeholder {
     width: 90%;
 }
 
+.notification-form {
+    display: flex;
+}
+
 .notification-form__input {
-    padding: 1.5rem 13.375rem 1.5rem 1.625rem;
+    padding: 1.5rem 3.375rem 1.5rem 1.625rem;
     background-color: #FFFFFF33;
     width: 36.25rem;
 
@@ -822,6 +826,10 @@ input::placeholder {
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: 400;
+}
+
+.notification-btn {
+    padding: 1.656rem 1.563rem;
 }
 
 .notifications-image {

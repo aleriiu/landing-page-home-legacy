@@ -52,7 +52,7 @@ button:hover {
 .btn-black:hover {
     background-color: #FFFFFF;
     color: #1C1C1C;
-    border: 1px #1C1C1C solid;
+    border: 0.063rem #1C1C1C solid;
 }
 
 .menu__item::after {
@@ -548,11 +548,11 @@ svg path {
     color: #FFFFFF;
     font-size: 0.875rem;
     font-weight: 300;
-    border: none;
-    padding: 1.25rem 6.875rem;
+    padding: 1.188rem 6.875rem;
     margin-top: 1rem;
     margin-bottom: 0.938rem;
     width: 90%;
+    border: 0.063rem #1C1C1C solid;
 }
 
 /* work-process section */

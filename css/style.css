@@ -941,6 +941,11 @@ svg path {
     color: #00a8f4;
 }
 
+.submenu__column {
+    display: flex;
+    gap: 4rem;
+}
+
 @media (min-width: 1024px) and (max-width: 1439px) {
 
     p {
@@ -1111,6 +1116,10 @@ svg path {
     .submenu__title {
         font-size: 1.438rem;
     }
+
+    .submenu__column {
+        gap: 2rem;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -1244,5 +1253,76 @@ svg path {
 
     .work-process-card {
         padding: 1.5rem 3rem;
+    }
+
+    .section-title {
+        font-size: 3.563rem;
+    }
+
+    .clients-gallary {
+        display: block;
+    }
+
+    .partners-container {
+        gap: 2rem;
+    }
+
+    .partners-header {
+        margin-top: 0;
+        font-size: 3.563rem;
+    }
+
+    .partners-block {
+        display: none;
+    }
+
+    .partners-founder_color {
+        left: 33%;
+    }
+
+    .partners-founder_co-founder {
+        left: 46%;
+    }
+
+    .section__notifications {
+        width: unset;
+    }
+
+    .notifications-container {
+        margin-top: 0;
+    }
+
+    .notifications-image {
+        width: 78vw;
+    }
+
+    .notification-header {
+        font-size: 2.625rem;
+        padding-left: 14.5rem;
+    }
+
+    .notification-description {
+        padding: 7.625rem 0.813rem 3.563rem 4.313rem;
+    }
+
+    .notification-about {
+        padding-left: 16.688rem;
+    }
+
+    .notification-form__input {
+        width: inherit;
+        margin-left: 16.625rem;
+    }
+
+    .footer-container {
+        flex-wrap: wrap;
+    }
+
+    .last-description {
+        max-width: unset;
+    }
+
+    .header-logo_font-size {
+        font-size: 3rem;
     }
 }

@@ -1186,4 +1186,63 @@ svg path {
     .services-group2 {
         flex-wrap: wrap;
     }
+
+    .about-us {
+        flex-direction: column;
+        margin-top: 3.375rem;
+    }
+
+    .about-us__header {
+        font-size: 3.563rem;
+    }
+
+    .about-us__header-description {
+        width: inherit;
+    }
+
+    .about-us__circle::before {
+        width: 9.625rem;
+        height: 9.625rem;
+        right: 85%;
+    }
+
+    .about-us__circle-block::before {
+        width: 9.625rem;
+        height: 9.625rem;
+        right: -15%;
+    }
+
+    .property__header {
+        font-size: 3.563rem;
+        margin-top: 3.375rem;
+    }
+
+    .property__booking {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .booking-card {
+        margin-bottom: 1.375rem;
+    }
+
+    .booking-card__btn {
+        width: 95%;
+    }
+
+    .work-process {
+        margin-top: 2rem;
+    }
+
+    .work-process-title {
+        font-size: 3.563rem;
+    }
+
+    .work-process-card__img {
+        width: 39vw;
+    }
+
+    .work-process-card {
+        padding: 1.5rem 3rem;
+    }
 }

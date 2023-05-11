@@ -941,7 +941,7 @@ svg path {
     color: #00a8f4;
 }
 
-@media (min-width: 1024px) and (max-width: 1039px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
 
     p {
         font-size: 0.938rem;
@@ -971,6 +971,23 @@ svg path {
         padding: 0 15px;
     }
 
+    .label {
+        font-size: 0.875rem;
+    }
+
+    .input-container>input {
+        font-size: 1.125rem;
+        width: 9rem;
+    }
+
+    .form {
+        padding: 0.875rem 1.438rem
+    }
+
+    .form__seach-btn > img {
+        padding: 1.313rem 1.375rem;
+    }
+
     .circle::after {
         width: 4rem;
         height: 4rem;
@@ -985,8 +1002,27 @@ svg path {
         max-width: 60%;
     }
 
-    .about-us__circle {
-        max-width: 40%;
+    .about-us__header-description {
+        padding-right: 161px;
+        width: inherit;
+    }
+
+    .about-us__circle::before {
+        width: 8.625rem;
+        height: 8.625rem;
+        right: 78%;
+        bottom: 24%;
+    }
+
+    .about-us__circle-block::before {
+        width: 8.625rem;
+        height: 8.625rem;
+        right: -19%;
+        transform: translateY(-50px);
+    }
+
+    .about-us_images {
+        width: 21rem;
     }
 
     .property__booking {

@@ -984,7 +984,7 @@ svg path {
         padding: 0.875rem 1.438rem
     }
 
-    .form__seach-btn > img {
+    .form__seach-btn>img {
         padding: 1.313rem 1.375rem;
     }
 
@@ -992,6 +992,11 @@ svg path {
         width: 4rem;
         height: 4rem;
         transform: translateX(-31px);
+    }
+
+    .services-image {
+        margin-bottom: 1rem;
+        margin-top: 1.5rem;
     }
 
     .about-us__header {
@@ -1064,11 +1069,23 @@ svg path {
     }
 
     .partners-description {
-        width: 100%;
+        width: 69%;
     }
 
     .partners-founder {
         font-size: 1.5rem;
+    }
+
+    .partners-founder_color {
+        left: 37%;
+    }
+
+    .partners-founder_co-founder {
+        left: 48%;
+    }
+
+    .partners-block {
+        display: none;
     }
 
     .notification-description {
@@ -1093,5 +1110,80 @@ svg path {
 
     .submenu__title {
         font-size: 1.438rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    p {
+        font-size: 0.875rem;
+    }
+
+    .header-container {
+        flex-direction: column;
+    }
+
+    .header-logo {
+        font-size: 2rem;
+    }
+
+    .menu {
+        padding-top: 0.813rem;
+    }
+
+    .menu__link {
+        font-size: 1rem;
+    }
+
+    .seaching__description {
+        margin-top: 2rem;
+    }
+
+    .seaching__description-header {
+        font-size: 2.2rem;
+        padding-bottom: 0.313rem;
+    }
+
+    .seaching__description-header>span {
+        font-size: 3.4rem;
+    }
+
+    .circle::after {
+        width: 3.5rem;
+        height: 3.5rem;
+        transform: translateX(-29px);
+    }
+
+    .form {
+        width: 82vw;
+    }
+
+    .label {
+        font-size: 0.75rem;
+    }
+
+    .input-container>input {
+        font-size: 1.063rem;
+        width: 8rem;
+    }
+
+    .input-container::after {
+        left: 85%;
+    }
+
+    .form__seach-btn>img {
+        padding: 1.138rem 1.3rem;
+    }
+
+    .services-header__services {
+        font-size: 3.563rem;
+    }
+
+    .services-group1 {
+        flex-wrap: wrap;
+    }
+
+    .services-group2 {
+        flex-wrap: wrap;
     }
 }

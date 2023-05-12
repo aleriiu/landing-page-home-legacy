@@ -202,20 +202,20 @@ button:hover {
     text-decoration: none;
 }
 
-/* seaching */
+/* searching */
 
-.seaching {
+.searching {
     display: flex;
     justify-content: space-between;
 }
 
-.seaching__description {
+.searching__description {
     margin-top: 10.938rem;
     width: 60%;
     position: relative;
 }
 
-.seaching__description-header {
+.searching__description-header {
     font-weight: 700;
     font-size: 3.25rem;
     padding-bottom: 1.313rem;
@@ -223,28 +223,28 @@ button:hover {
     font-family: 'CabinetGrotesk-Bold';
 }
 
-.seaching__description-header>span {
+.searching__description-header>span {
     font-size: 5.625rem;
     font-weight: 900;
     line-height: 6.075rem;
     font-family: 'CabinetGrotesk-Black';
 }
 
-.seaching__description-about {
+.searching__description-about {
     line-height: 1.75rem;
     padding-bottom: 2.688rem;
     color: #5C5C5C;
     width: 85%;
 }
 
-.seaching__field {
+.searching__field {
     display: flex;
     justify-content: space-around;
     background-color: #FFFFFF;
     box-shadow: 0rem 0.5rem 1.75rem 0rem;
 }
 
-.seaching__info {
+.searching__info {
     font-weight: 400;
     font-size: 0.875rem;
     padding-top: 1.625rem;
@@ -309,21 +309,21 @@ input::placeholder {
     outline-offset: 0;
 }
 
-.form__seach-btn {
+.form__search-btn {
     background-color: #1C1C1C;
     border: none;
 }
 
-.form__seach-btn>img {
+.form__search-btn>img {
     /* background-color: transparent; */
     padding: 1.438rem 1.5rem;
 }
 
-.form__seach-btn:hover {
+.form__search-btn:hover {
     background: #474948;
 }
 
-.seaching__images {
+.searching__images {
     padding-top: 2.125rem;
     width: 40%;
 }
@@ -1015,15 +1015,15 @@ svg path {
         font-size: 3.438rem;
     }
 
-    .seaching__description {
+    .searching__description {
         margin-top: 4.938rem;
     }
 
-    .seaching__description-header {
+    .searching__description-header {
         font-size: 2.25rem;
     }
 
-    .seaching__description-header>span {
+    .searching__description-header>span {
         font-size: 4rem;
     }
 
@@ -1044,7 +1044,7 @@ svg path {
         padding: 0.875rem 1.438rem
     }
 
-    .form__seach-btn>img {
+    .form__search-btn>img {
         padding: 1.313rem 1.375rem;
     }
 
@@ -1187,16 +1187,16 @@ svg path {
         font-size: 1rem;
     }
 
-    .seaching__description {
+    .searching__description {
         margin-top: 2rem;
     }
 
-    .seaching__description-header {
+    .searching__description-header {
         font-size: 2.2rem;
         padding-bottom: 0.313rem;
     }
 
-    .seaching__description-header>span {
+    .searching__description-header>span {
         font-size: 3.4rem;
     }
 
@@ -1223,7 +1223,7 @@ svg path {
         left: 85%;
     }
 
-    .form__seach-btn>img {
+    .form__search-btn>img {
         padding: 1.138rem 1.3rem;
     }
 
@@ -1528,9 +1528,8 @@ svg path {
         gap: 0;
     }
 
-    .seaching {
+    .searching {
         background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("../images/Rectangle\ 3.png") no-repeat;
-        /* background-image: url("../images/Rectangle\ 3.png"); */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1539,12 +1538,12 @@ svg path {
     }
 
     .circle-block,
-    .seaching__images,
+    .searching__images,
     .circle {
         display: none;
     }
 
-    .seaching__description {
+    .searching__description {
         margin-top: 2.5rem;
         width: unset;
         display: flex;
@@ -1553,16 +1552,16 @@ svg path {
         align-items: center;
     }
 
-    .seaching__description-header {
+    .searching__description-header {
         color: #f0f0f0;
     }
 
-    .seaching__description-header>span {
+    .searching__description-header>span {
         line-height: 4.5rem;
         color: #f0f0f0;
     }
 
-    .seaching__description-about {
+    .searching__description-about {
         width: unset;
         color: #f0f0f0;
     }
@@ -1581,8 +1580,96 @@ svg path {
         content: none;
     }
 
-    .form__seach-btn {
+    .form__search-btn {
         width: 100%;
         margin-top: 1rem;
+    }
+
+    .services-header {
+        padding-top: 2.5rem;
+    }
+
+    .services-header__description {
+        width: unset;
+    }
+
+    .services-group {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    .services-card {
+        width: unset;
+    }
+
+    .about-us {
+        background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("../images/Rectangle\ 26.png") no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
+        padding-bottom: 3.3rem;
+    }
+
+    .about-us__circle {
+        display: none;
+    }
+
+    .about-us__header {
+        color: #f0f0f0;
+        padding: 0 0.5rem;
+    }
+
+    .about-us__header-description {
+        width: unset;
+        color: #f0f0f0;
+        padding: 0 0.5rem;
+    }
+
+    .about-us__button {
+        background-color: #f0f0f0;
+        color: #1C1C1C;
+        margin: 0.5rem 0.5rem;
+    }
+
+    .property__header {
+        width: unset;
+        margin-top: 3.3rem;
+    }
+
+    .property__header-item {
+        width: unset;
+    }
+
+    .property__booking {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    .booking-card {
+        margin-bottom: 3.3rem;
+    }
+
+    .work-process-title {
+        width: unset;
+    }
+
+    .work-process-text {
+        width: unset;
+    }
+
+    .work-process-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work-process-card:nth-child(odd) {
+        border-right: none;
+    }
+
+    .work-process-card {
+        width: unset;
+        padding: 0;
+        padding-bottom: 1.5rem;
     }
 }

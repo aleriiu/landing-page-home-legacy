@@ -1765,6 +1765,7 @@ svg path {
     .notification-header {
         font-size: 2.5rem;
         width: unset;
+        padding-top: 1.5rem;
     }
 
     .notification-description {
@@ -1777,7 +1778,8 @@ svg path {
     }
 
     .notification-form {
-        justify-content: center
+        justify-content: center;
+        border-radius: unset;
     }
 
     .notification-form__input {

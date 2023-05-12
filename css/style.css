@@ -606,6 +606,8 @@ svg path {
     margin-bottom: 0.938rem;
     width: 90%;
     border: 0.063rem #1C1C1C solid;
+    display: flex;
+    justify-content: center;
 }
 
 /* work-process section */
@@ -1596,10 +1598,17 @@ svg path {
     .services-group {
         flex-wrap: nowrap;
         overflow-x: scroll;
+        justify-content: unset;
     }
 
     .services-card {
         width: unset;
+        padding: 0px 24px;
+        min-width: 80%;
+    }
+
+    .searching__description {
+        padding-bottom: 0;
     }
 
     .about-us {
@@ -1609,6 +1618,7 @@ svg path {
         background-size: cover;
         max-width: 100%;
         padding-bottom: 3.3rem;
+        margin-top: 3.3rem;
     }
 
     .about-us__circle {
@@ -1617,13 +1627,14 @@ svg path {
 
     .about-us__header {
         color: #f0f0f0;
-        padding: 0 0.5rem;
+        padding: 1.5rem 0.5rem;
     }
 
     .about-us__header-description {
         width: unset;
         color: #f0f0f0;
         padding: 0 0.5rem;
+        padding-bottom: 1.5rem;
     }
 
     .about-us__button {
@@ -1650,6 +1661,16 @@ svg path {
         margin-bottom: 3.3rem;
     }
 
+    .booking-card__location,
+    .booking-card__price,
+    .booking-card__details {
+        padding-top: 0.5rem;
+    }
+
+    .main__work-process {
+        margin: 0;
+    }
+
     .work-process-title {
         width: unset;
     }
@@ -1671,5 +1692,135 @@ svg path {
         width: unset;
         padding: 0;
         padding-bottom: 1.5rem;
+        border-bottom: none;
+    }
+
+    .work-process-card__img {
+        width: 70%;
+    }
+
+    .clients {
+        display: none;
+    }
+
+    .section__partners {
+        padding: 0;
+        width: 82%;
+    }
+
+    .partners-container {
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .partners-header {
+        margin-top: 1.25rem;
+        font-size: 3.563rem;
+    }
+
+    .partners-description {
+        width: inherit;
+    }
+
+    .partners-image {
+        justify-content: center;
+    }
+
+    .partners-image__full-img {
+        width: 26.5rem;
+        height: 23.438rem;
+        background-position: top;
+        background-image: url('../images/man.png');
+        background-repeat: no-repeat;
+    }
+
+    .partners-image__full-img>img {
+        display: none;
+    }
+
+    .partners-block {
+        display: none;
+    }
+
+    .partners-founder_color {
+        left: 21%;
+        top: 81%;
+    }
+
+    .partners-founder_co-founder {
+        left: 37%;
+        top: 88%;
+    }
+
+    .section__notifications {
+        width: unset;
+    }
+
+    .notifications-container {
+        margin-top: 3.813rem;
+        padding: 0 0.5rem;
+        padding-bottom: 3.3rem;
+    }
+
+    .notification-header {
+        font-size: 2.5rem;
+        width: unset;
+    }
+
+    .notification-description {
+        padding: 0;
+        width: unset;
+    }
+
+    .notifications-image {
+        display: none;
+    }
+
+    .notification-form {
+        justify-content: center
+    }
+
+    .notification-form__input {
+        width: unset;
+        padding: 0;
+        padding-left: 0.5rem;
+    }
+
+    .notification-btn {
+        padding: 0.656rem 0.563rem;
+    }
+
+    .notification-form__input::placeholder {
+        font-size: 0.95rem;
+        font-weight: 300;
+    }
+
+    .footer {
+        background-position: right;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .last-description {
+        max-width: unset;
+    }
+
+    .header-logo_font-size {
+        font-size: 2.5rem;
+    }
+
+    .submenu {
+        gap: 1rem;
+    }
+
+    .submenu__column {
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .submenu__list {
+        gap: 0.5rem;
     }
 }

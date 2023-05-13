@@ -687,26 +687,26 @@ svg path {
     text-align: center;
 }
 
-.clients-gallary {
+.clients-gallery {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
 }
 
-.clients-gallary__main {
+.clients-gallery__main {
     display: flex;
     width: 66%;
 }
 
-.clients-gallary__main-photo {
+.clients-gallery__main-photo {
     min-height: 22.75rem;
     width:34.6%;
     object-fit: cover;
 
 }
 
-.clients-gallary__main-textbox {
+.clients-gallery__main-textbox {
     width: 65.4%;
     display: flex;
     flex-direction: column;
@@ -716,16 +716,16 @@ svg path {
     background-color: #ffffff;
 }
 
-.clients-gallary__main-textbox_hidden {
+/* .clients-gallery__main-textbox_hidden {
     display: none;
-}
+} */
 
-.clients-gallary__main-img {
+.clients-gallery__main-img {
     height: 3.75rem;
     width: 4.625rem;
 }
 
-.clients-gallary__main-name {
+.clients-gallery__main-name {
     font-family: 'CabinetGrotesk-Black';
     font-weight: 900;
     font-size: 1.25rem;
@@ -733,29 +733,33 @@ svg path {
     text-transform: uppercase;
 }
 
-.clients-gallary__main-location {
+.clients-gallery__main-location {
     font-weight: 300;
     font-size: 0.875rem;
     line-height: 1rem;
     color: #5C5C5C;
 }
 
-.clients-gallary__side {
+.clients-gallery__side {
     width: 15%;
     position: relative;
 }
 
-.clients-gallary__side > .clients-gallary__main,
-.clients-gallary__side > .clients-gallary__main > .clients-gallary__main-photo {
+.clients-gallery__side > .clients-gallery__main,
+.clients-gallery__side > .clients-gallery__main > .clients-gallery__main-photo {
     width: 100%;
     min-height: 100%;
 }
 
-.clients-gallary__side > .clients-gallary__main > .clients-gallary__main-photo {
+.clients-gallery__side > .clients-gallery__main > .clients-gallery__main-textbox {
+    display: none;
+}
+
+.clients-gallery__side > .clients-gallery__main > .clients-gallery__main-photo {
     filter: brightness(0.4);
 }
 
-.clients-gallary__side-btn {
+.clients-gallery__side-btn {
     position: absolute;
     background-color: transparent;
     border: 2.5px solid #FFFFFF;
@@ -1339,7 +1343,7 @@ svg path {
         margin-bottom: 4.813rem;
     }
 
-    .clients-gallary {
+    .clients-gallery {
         display: block;
     }
 

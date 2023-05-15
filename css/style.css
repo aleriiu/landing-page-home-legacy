@@ -465,8 +465,8 @@ svg path {
 }
 
 .about-us__button {
-    border: none;
     background-color: #1C1C1C;
+    border: 1px solid #1C1C1C;
     color: #FFFFFF;
     padding-top: 1.25rem;
     padding-right: 1.375rem;
@@ -697,6 +697,7 @@ svg path {
 .clients-gallery__main {
     display: flex;
     width: 66%;
+    max-height: 24rem;
 }
 
 .clients-gallery__main-photo {
@@ -1210,6 +1211,10 @@ svg path {
     .submenu__column {
         gap: 2rem;
     }
+
+    .clients-gallery {
+        display: flex;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -1341,10 +1346,6 @@ svg path {
 
     .clients {
         margin-bottom: 4.813rem;
-    }
-
-    .clients-gallery {
-        display: block;
     }
 
     .section__partners {
@@ -1486,9 +1487,22 @@ svg path {
         border-bottom: 1px solid #444;
     }
 
+    .clients-gallery {
+        display: flex;
+    }
+
+    .clients-gallery__main {
+        width: 90%;
+    }
+
+    .clients-gallery__main-textbox {
+        line-height: 1.5rem;
+    }
+    
+
 }
 
-@media (min-width: 365px) and (max-width: 767px) {
+@media (max-width: 767px) {
 
     .header-container,
     .section,
